@@ -1,0 +1,713 @@
+@font-face {
+  font-family: "Dream Orphans";
+  src: url("../fonts/DreamOrphans-Italic.woff2") format("woff2"), url("../fonts/DreamOrphans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dream Orphans";
+  src: url("../fonts/DreamOrphans-BoldItalic.woff2") format("woff2"), url("../fonts/DreamOrphans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dream Orphans";
+  src: url("../fonts/DreamOrphans-Bold.woff2") format("woff2"), url("../fonts/DreamOrphans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dream Orphans";
+  src: url("../fonts/DreamOrphans-Regular.woff2") format("woff2"), url("../fonts/DreamOrphans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Floane";
+  src: url("../fonts/Floane-BoldItalic.woff2") format("woff2"), url("../fonts/Floane-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Collection New Style";
+  src: url("../fonts/CollectionNewStyle-Regular.woff2") format("woff2"), url("../fonts/CollectionNewStyle-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: "Dream Orphans", sans-serif;
+  position: relative;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue: #1d70b7;
+  --color-light-blue: #a8c0dd;
+  --color-gray: #e3e3e3;
+  --text-color: #979797;
+}
+
+header {
+  height: 9rem;
+}
+
+.banner {
+  min-height: 80vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: -1px 7px 56px -17px black;
+  box-shadow: -1px 7px 56px -17px black;
+}
+
+.banner .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner .swiper .swiper-slide-active .content {
+  -webkit-animation: fadeInLeft 1.5s;
+          animation: fadeInLeft 1.5s;
+}
+
+.banner .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 85vh;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.banner .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 991px) {
+  .banner .swiper .swiper-slide .container-fluid {
+    padding-left: 0rem;
+  }
+}
+
+.banner .swiper .swiper-slide .content {
+  height: 33rem;
+  background-color: #1d6fb7a9;
+  max-width: 55rem;
+  margin-top: 2rem;
+  padding: 5rem 4rem;
+  border-radius: 0rem 3rem 3rem 0rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner .swiper .swiper-slide .content {
+    max-width: 48rem;
+    height: 31rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner .swiper .swiper-slide .content {
+    border-radius: 0;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner .swiper .swiper-slide .content {
+    padding: 3rem 1rem;
+  }
+}
+
+.banner .swiper .swiper-slide .content h1 {
+  font-family: "Floane", sans-serif;
+  color: var(--color-white);
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner .swiper .swiper-slide .content h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner .swiper .swiper-slide .content h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner .swiper .swiper-slide .content h1 {
+    font-size: 2rem;
+  }
+}
+
+.banner .swiper .swiper-slide .content p {
+  color: var(--color-white);
+  font-size: 0.84rem;
+  max-width: 37rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  margin-bottom: 0rem;
+}
+
+.banner .swiper .swiper-slide .content p:last-child {
+  line-height: normal;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner .swiper .swiper-slide .content p {
+    font-size: 0.8rem;
+    max-width: 33rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner .swiper .swiper-slide .content p {
+    max-width: 100%;
+    line-height: 1.3rem;
+  }
+}
+
+.banner .swiper .swiper-slide .content .btn {
+  color: var(--color-blue);
+  background-color: var(--color-white);
+  border-radius: 0;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+.banner .swiper .swiper-pagination {
+  background-color: var(--color-blue);
+}
+
+.banner .swiper .swiper-pagination-bullet {
+  width: 8rem;
+  border-radius: 0rem;
+  background-color: var(--color-white);
+}
+
+.banner .swiper .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.services {
+  padding: 8rem 12rem 2rem 12rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1750px) {
+  .services {
+    padding: 6rem 6rem 2rem 6rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .services {
+    padding: 6rem 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services {
+    padding: 4rem 1rem 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services .area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.services h2 {
+  text-align: center;
+  color: var(--color-blue);
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .services h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services h2 {
+    font-size: 2rem;
+  }
+}
+
+.services .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .text p {
+  color: var(--text-color);
+  font-size: 1rem;
+  text-align: center;
+  max-width: 80rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .services .text p {
+    max-width: 100% !important;
+    font-size: 0.9rem;
+  }
+}
+
+.services .service-list {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .services .service-list {
+    margin-top: 2rem;
+  }
+}
+
+.services .service-list .img-wrapper {
+  -webkit-animation: fadeInLeft 1.5s;
+          animation: fadeInLeft 1.5s;
+}
+
+.services .service-list .img-wrapper img {
+  border-radius: 0rem 0rem 3rem 3rem;
+  -webkit-box-shadow: -1px 6px 28px -6px #707070;
+  box-shadow: -1px 6px 28px -6px #707070;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 35rem;
+}
+
+@media screen and (max-width: 991px) {
+  .services .service-list .img-wrapper img {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services .service-list .img-wrapper img {
+    height: auto;
+  }
+}
+
+.services .service-list .content {
+  padding: 2rem 1rem;
+}
+
+.services .service-list .content h3 {
+  color: var(--color-light-blue);
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .services .service-list .content h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services .service-list .content h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services .service-list .content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.services .service-list .content p {
+  color: var(--color-blue);
+  font-size: 1rem;
+  max-width: 20rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1200px) {
+  .services .service-list .content p {
+    max-width: 100% !important;
+  }
+}
+
+.services .service-list .content .btn {
+  padding-left: 0rem;
+  font-style: italic;
+  color: var(--color-blue);
+  font-weight: 700;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.services .service-list .content .btn::before {
+  content: "";
+  height: 1rem;
+  width: 5.5rem;
+  background-color: var(--color-gray);
+  position: absolute;
+  z-index: -1;
+  bottom: 0.2rem;
+  left: 0.5rem;
+}
+
+.services .service-list .content .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.services .service-list .tab-menu li {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.services .service-list .tab-menu li:hover a::before, .services .service-list .tab-menu li.active a::before, .services .service-list .tab-menu li:active a::before {
+  left: -4rem;
+}
+
+.services .service-list .tab-menu li a {
+  font-size: 2rem;
+  color: var(--color-blue);
+  display: block;
+  font-style: italic;
+  font-weight: 600;
+  position: relative;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+@media screen and (max-width: 1440px) {
+  .services .service-list .tab-menu li a {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services .service-list .tab-menu li a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services .service-list .tab-menu li a {
+    font-size: 1.3rem;
+  }
+}
+
+.services .service-list .tab-menu li a::before {
+  content: "";
+  height: 2rem;
+  width: 15rem;
+  background-color: var(--color-gray);
+  position: absolute;
+  z-index: -1;
+  bottom: -0.5rem;
+  left: 2rem;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+@media screen and (max-width: 600px) {
+  .services .service-list .tab-menu li a::before {
+    left: 1rem;
+    height: 1.5rem;
+    width: 10rem;
+  }
+}
+
+.speed-appoinment {
+  padding: 3rem 12rem;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1750px) {
+  .speed-appoinment {
+    padding: 3rem 6rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .speed-appoinment {
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .speed-appoinment {
+    padding: 2rem 1rem;
+  }
+}
+
+.speed-appoinment::before {
+  content: "";
+  background: url(../img/dental2.gif) no-repeat;
+  background-size: 60%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: right;
+  right: -2.2rem;
+  bottom: 0rem;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1750px) {
+  .speed-appoinment::before {
+    bottom: -0.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .speed-appoinment::before {
+    background-size: 80%;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .speed-appoinment::before {
+    background-size: 90%;
+    background-position: top right;
+    bottom: -2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .speed-appoinment::before {
+    background-size: contain;
+    bottom: -4rem;
+  }
+}
+
+.speed-appoinment h2 {
+  font-family: "Collection New Style";
+  font-size: 16rem;
+  margin-left: -2rem;
+  color: var(--color-blue);
+  line-height: 2rem;
+  margin-top: 9rem;
+  position: relative;
+  z-index: 999999999;
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .speed-appoinment h2 {
+    font-size: 10rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .speed-appoinment h2 {
+    margin-left: 0rem;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .speed-appoinment h2 {
+    font-size: 7rem;
+    margin-top: 2rem;
+  }
+}
+
+.speed-appoinment .form-area {
+  background-color: var(--color-gray);
+  padding: 4rem 4rem;
+  border-radius: 0rem 0rem 2rem 2rem;
+  z-index: 99;
+  -webkit-box-shadow: -1px 6px 28px -6px #707070;
+  box-shadow: -1px 6px 28px -6px #707070;
+}
+
+@media screen and (max-width: 1440px) {
+  .speed-appoinment .form-area {
+    padding: 3rem 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .speed-appoinment .form-area {
+    padding: 3rem 1rem;
+  }
+}
+
+.speed-appoinment .form-area .form-group {
+  z-index: 999;
+  position: relative;
+}
+
+.speed-appoinment .form-area .form-group label {
+  margin: 0rem 0rem 0.2rem 1rem;
+  color: var(--color-blue);
+  font-weight: 300;
+  font-size: 1.1rem;
+  z-index: 9999;
+}
+
+.speed-appoinment .form-area .form-group input {
+  border-radius: 0;
+  border: none;
+  height: 2.5rem;
+}
+
+.speed-appoinment .form-area .form-group input,
+.speed-appoinment .form-area .form-group textarea {
+  font-weight: 300;
+}
+
+.speed-appoinment .form-area .form-group input:focus,
+.speed-appoinment .form-area .form-group textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.speed-appoinment .form-area .form-group textarea {
+  border: none;
+  resize: none;
+  padding: 0.5rem;
+}
+
+.speed-appoinment .form-area button {
+  background-color: var(--color-white);
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem 4rem;
+  color: var(--color-blue);
+  font-size: 1.2rem;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+@media screen and (min-width: 1200px) {
+  .speed-appoinment .form-area button {
+    position: absolute;
+    right: -13rem;
+    bottom: 1rem;
+    z-index: 99999;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .speed-appoinment .form-area button {
+    margin-top: 2rem;
+  }
+}
+
+.speed-appoinment .form-area button:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.speed-appoinment .img-wrapper {
+  height: 37.7rem;
+  position: relative;
+  z-index: 9;
+  margin-top: 1.7rem;
+}
+
+.speed-appoinment .img-wrapper::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.267);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.speed-appoinment .img-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100% !important;
+  width: 100%;
+  z-index: 99;
+}
+/*# sourceMappingURL=styles.css.map */
