@@ -18,9 +18,57 @@
 </head>
 
 <body>
+   
     <header>
-        header area
+        <div class="container-fluid">
+            <div class="header-inner d-flex align-items-center justify-content-between">
+                <div class="img-wrapper">
+                    <a href="index.html">
+                        <img src="./img/logo.png" class="img-fluid" alt="logo">
+                    </a>
+                </div>
+                <button id="toggle-btn"><i class="fa fa-bars"></i> </button>
+
+                <div class="navigation">
+                    <ul class="menu-area d-flex justify-content-center align-items-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link active">ANA SAYFA</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">KURUMSAL</a></li>
+                        <li class="nav-item"><a href="doctors.html" class="nav-link">DOKTORLAR</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="services.html" class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">TEDAVİLERİMİZ</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="service-detail.html">DİŞ BEYAZLATMA</a></li>
+                                <li><a class="dropdown-item" href="service-detail.html">GUMMY SMILE</a></li>
+                                <li><a class="dropdown-item" href="service-detail.html">İMPLANT TEDAVİSİ</a></li>
+                                <li><a class="dropdown-item" href="service-detail.html">LAMİNE KAPLAMA</a></li>
+                                <li><a class="dropdown-item" href="service-detail.html">KANAL TEDAVİSİ</a></li>
+                                <li><a class="dropdown-item" href="service-detail.html">PORSELEN KAPLAMA</a></li>
+                                <li><a class="dropdown-item" href="service-detail.html">DİŞ TAŞI TEMİZLİĞİ</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link"> İLETİŞİM</a></li>
+                    </ul>
+                    <div class="language d-xl-none d-flex justify-content-center align-items-center">
+                        <img src="./img/world.png" class="img-fluid" alt="world">
+                        <ul class="d-flex align-items-center">
+                            <li class="nav-item active">TR</li>
+                            <li class="nav-item">ENG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="language d-xl-flex d-none justify-content-center align-items-center">
+                    <img src="./img/world.png" class="img-fluid" alt="world">
+                    <ul class="d-flex align-items-center">
+                        <li class="nav-item active">TR</li>
+                        <li class="nav-item">ENG</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
+
     <section class="banner">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -50,13 +98,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide" style="background: url(./img/slide-img.jpg)no-repeat; background-size: cover; background-position: center;">
+                    <div class="container-fluid">
+                        <div class="content d-flex flex-column align-items-center justify-content-center">
+                            <h1>Sağlıklı Gülüşler</h1>
+                            <p>Diş estetiği yaptırırken gerçekçi olmak önemlidir. Dişinizi yaptırmayı seçtiğinizde tüm hayatınızın değişmesini
+                                beklememelisiniz. Daha iyi ve daha etkileyici gülümsemeler sağlanabilir; sosyal ve iş hayatınıza önemli taahhütlerde bulunulur. Ancak, makul beklentilere sahip olmak önemlidir. Bu uygulamaların nasıl yönetileceği konusunda uzman diş hekiminiz size rehberlik edecektir.Diş beyazlatma da tütün kullanımı veya tetrasiklin kullanımı nedeniyle doğal beyazlığını kaybetmiş dişlerin rengini açmayı sağlar. Kaplamalar gibi beyazlatma da hızlı sonuç veren bir tedavi yöntemidir. Ancak buna ek olarak, gülümsemede çok belirgin değişiklikler elde edilir.</p>
+                            <p> Kliniklerde uygulanan diş beyazlatma işlemi toplamda bir ay sürer.</p>
+                            <div class="button-area">
+                                <a href="" class="btn"> Devam Et</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(./img/slide-img.jpg)no-repeat; background-size: cover; background-position: center;">
+                    <div class="container-fluid">
+                        <div class="content d-flex flex-column align-items-center justify-content-center">
+                            <h1>Sağlıklı Gülüşler</h1>
+                            <p>Diş estetiği yaptırırken gerçekçi olmak önemlidir. Dişinizi yaptırmayı seçtiğinizde tüm hayatınızın değişmesini
+                                beklememelisiniz. Daha iyi ve daha etkileyici gülümsemeler sağlanabilir; sosyal ve iş hayatınıza önemli taahhütlerde bulunulur. Ancak, makul beklentilere sahip olmak önemlidir. Bu uygulamaların nasıl yönetileceği konusunda uzman diş hekiminiz size rehberlik edecektir.Diş beyazlatma da tütün kullanımı veya tetrasiklin kullanımı nedeniyle doğal beyazlığını kaybetmiş dişlerin rengini açmayı sağlar. Kaplamalar gibi beyazlatma da hızlı sonuç veren bir tedavi yöntemidir. Ancak buna ek olarak, gülümsemede çok belirgin değişiklikler elde edilir.</p>
+                            <p> Kliniklerde uygulanan diş beyazlatma işlemi toplamda bir ay sürer.</p>
+                            <div class="button-area">
+                                <a href="" class="btn"> Devam Et</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -188,7 +256,7 @@
                     </div>
                     <div class="col-xl-4">
                         <ul class="nav tab-menu nav-pills nav-stacked pr15 d-flex flex-column">
-                            <li  data-toggle="tab"><a href="#tab1">Lamine</a></li>
+                            <li data-toggle="tab"><a href="#tab1" class="active">Lamine</a></li>
                             <li><a href="#tab2" data-toggle="tab">Pedodonti</a></li>
                             <li><a href="#tab3" data-toggle="tab">Ortodonti</a></li>
                             <li><a href="#tab4" data-toggle="tab">Gülüş Estetiği</a></li>
@@ -242,8 +310,11 @@
                                 <div class="col-lg-12 mb-3 position-relative">
                                     <div class="form-group d-flex flex-column">
                                         <label for="fullname">Mesajınız*</label>
-                                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                                        <textarea name="" id="" cols="30" rows="7"></textarea>
                                     </div>
+                                    
+                                </div>
+                                <div class="col-lg-12 text-end">
                                     <button type="submit">Gönder</button>
                                 </div>
                             </div>
@@ -260,14 +331,260 @@
         </div>
     </section>
     <section class="doctors">
+        <div class="container-fluid">
+            <h2>Hekimlerimiz</h2>
+            <div class="text">
+                <p>
+                    Dental Care Ağız ve Diş Sağlığı Polikliniği olarak alanında uzman diş hekimlerinden oluşan kurucu kadromuzla birlikte; profesyonel, dinamik, inovatif, modern
+                    dental sağlık hizmetleri sunma prensipleriyle yola çıktık.
+                </p>
+            </div>
+            <div class="doctor-list">
+                <div class="swiper mySwiperDoctor">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/doctor.jpg" class="img-fluid" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr. Ali ŞEN</h5>
+                                    <span>Ortodonti Uzmanı</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/doctor.jpg" class="img-fluid" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr. Ali ŞEN</h5>
+                                    <span>Ortodonti Uzmanı</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/doctor.jpg" class="img-fluid" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr. Ali ŞEN</h5>
+                                    <span>Ortodonti Uzmanı</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/doctor.jpg" class="img-fluid" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr. Ali ŞEN</h5>
+                                    <span>Ortodonti Uzmanı</span>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="we">
+    <section class="we-are">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="content d-flex flex-column justify-content-center">
+                        <div class="title">
+                            <h3>Biz Kimiz</h3>
+                        </div>
+                        <p>
+                            Kurucu kadroyu oluşturan uzman hekimler olarak; biriktirdiğimiz mesleki tecrübeler ile birlikte hastalarımızla kurduğumuz ilişkide güvene dayalı, uzun dönem takibe elverişli bir tedavi zemini sunmayı ve hastalarımız açısından ulaşılabilir olmayı
+                            önemsiyoruz.Kişinin sağlığını belli eden en önemli
+                            göstergelerden olan ağız ve diş sağlığı, birçok hastalığın
+                            saptanmasına da destek olmaktadır. Birçok hastalığa temel teşkil eden ağız ve diş sağlığı hem sağlık hem de estetik
+                            olarak kişinin yaşamında önemli bir yere sahiptir. Sağlık
+                            sorunlarının kişiye verdiği acının dışında dişlerin orantısız büyüklük ve diş kayıpları kişinin öz güveni için de büyük bir sorun oluşturmaktadır. Ağız ve diş sağlığı küçük yaşlarda
+                            başlayarak, koruyucu hekimlik desteğiyle düzenli bir şekilde sürdürülen tedavilerle bireyin sağlıklı ağız ve diş
+                            yapısına sahip olmasının sağlanmasıdır.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-7">
 
+                    <div class="img-wrapper position-relative">
+                        <div class="modal-toggle">
+                            <a href="https://www.youtube.com/watch?v=nh0JRhWaEdA" data-fancybox="gallery">
+                                <svg version="1.1" id="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px" width="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                    <path class="stroke-solid" fill="none" stroke="#1d70b7" d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+        C97.3,23.7,75.7,2.3,49.9,2.5" />
+                                    <path class="icon" fill="#1d70b7" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <img src="./img/we-are.jpg" class="img-fluid" alt="we-are">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="galeria">
+        <div class="container-fluid">
+            <h2>Galeria</h2>
+            <div class="gallery-list">
+                <div class="swiper mySwiperGallery">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <a href="./img/gallery.jpg" data-fancybox="gallery">
+                                    <img class="card-img-top" src="./img/gallery.jpg" class="img-fluid" alt="Card image cap">
+                                </a>
 
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <a href="./img/gallery.jpg" data-fancybox="gallery">
+                                    <img class="card-img-top" src="./img/gallery.jpg" class="img-fluid" alt="Card image cap">
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <a href="./img/gallery.jpg" data-fancybox="gallery">
+                                    <img class="card-img-top" src="./img/gallery.jpg" class="img-fluid" alt="Card image cap">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <a href="./img/gallery.jpg" data-fancybox="gallery">
+                                    <img class="card-img-top" src="./img/gallery.jpg" class="img-fluid" alt="Card image cap">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4">
+                                <img src="./img/logo.png" class="img-fluid" alt="logo">
+                            </div>
+                            <div class="col-lg-8 d-flex justify-content-center">
+                                <div class="form-area position-relative">
+                                    <form action="">
+                                        <div class="row ">
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+                                                    <label for="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="btn ">GÖNDER</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div>
+                                        <h5>KURUMSAL</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                        <ul>
+                                            <li><a href="">Hakkımızda</a></li>
+                                            <li><a href="">Vizyonumuz</a></li>
+                                            <li><a href="">Misyonumuz</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <h5>TEDAVİLERİMİZ</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                        <ul>
+                                            <li><a href="">İmplant</a></li>
+                                            <li><a href="">Dijital Gülüş Tasarımı</a></li>
+                                            <li><a href="">Zirkonyum Kaplama</a></li>
+                                            <li><a href="">Lamina Kaplama</a></li>
+                                            <li><a href="">Porselen Kaplama</a></li>
+                                            <li><a href="">Diş Beyazlatma</a></li>
+                                            <li><a href="">Ortodonti</a></li>
+                                            <li><a href="">Diş Eti Tedavisi</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <h5>BLOG</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                        <ul>
+                                            <li><a href="">Güşüş Tasarımı Nedir?</a></li>
+                                            <li><a href="">İmplant Hangi Durumlarda Uygulanır</a></li>
+                                            <li><a href="">Gülüş Tasarımı Nedir?</a></li>
+                                            <li><a href="">İmplant Hangi Durumda Yapılır?</a></li>
+                                            <li><a href="">Gülüş Tasarımı Nedir?</a></li>
+                                            <li><a href="">İmplant Hangi Durumda Yapılır?</a></li>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex flex-column align-items-start justify-content-start ">
+                        <div class="social-area">
+                            <h5>SOSYAL MEDYA</h5>
+                            <ul class="social-media d-flex">
+                                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                        <div style="margin-top: 3rem">
+                            <h5 style="margin-bottom: 2rem; display: block;">İLETİŞİM</h5>
+                            <div class="address">
+                                <h6>Adres</h6>
+                                <p>Zeytinlik Mah. Türkçü Sok. Ferah Palas Apartman A Blok No:16 Daire:9 Kat:4
+                                    Bakırköy / İSTANBUL</p>
+                            </div>
+                            <div class="phone-area">
+                                <h6>Telefon</h6>
+                                <ul>
+                                    <li><a href="tel:+90 535 12345 67"> +90 535 12345 67</a></li>
+                                    <li><a href="tel:+90 535 12345 67">+90 535 12345 67</a></li>
+                                </ul>
+                            </div>
+                            <div class="email-area">
+                                <h6>E-Posta</h6>
+                                <ul>
+                                    <li><a href="tel:+90 535 12345 67"> bilgi@dentalcare.com</a></li>
+                                    <li><a href="tel:+90 535 12345 67">info@dentalcare.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright d-flex justify-content-between align-items-center">
+            <span>Copyright © 2022 Dental Care All Rights Reserved.</span>
+            <a href="">
+                <img src="./img/wucize-footer.png" class="img-fluid" alt="wucize-logo">
+            </a>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
