@@ -672,6 +672,104 @@ header .header-inner .language ul li.active {
   opacity: 1;
 }
 
+.sub-banner {
+  position: relative;
+  min-height: 20vh;
+  width: 100%;
+  z-index: 99;
+  overflow: hidden;
+  -webkit-box-shadow: -1px 0px 22px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 22px -10px rgba(0, 0, 0, 0.75);
+  padding: 0rem 6rem 1.5rem 2rem;
+  background-color: var(--color-blue) !important;
+}
+
+.sub-banner ul {
+  padding-left: 5rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .sub-banner ul {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sub-banner ul {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sub-banner ul {
+    padding-left: 0rem;
+  }
+}
+
+.sub-banner ul li:first-child a {
+  font-weight: 900;
+  font-size: 2.3rem;
+  color: var(--color-white);
+  position: relative;
+}
+
+.sub-banner ul li:first-child a::after {
+  content: "";
+  background-color: var(--color-white);
+  width: 1rem;
+  height: 0.5rem;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0rem 0.5rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .sub-banner ul li:first-child a {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sub-banner ul li:first-child a {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sub-banner ul li:first-child a {
+    font-size: 1.2rem;
+  }
+}
+
+.sub-banner ul li:first-child a i {
+  font-size: 1.5rem;
+  color: var(--color-brown);
+  margin: 0rem 0.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .sub-banner ul li:first-child a i {
+    font-size: 0.9rem;
+  }
+}
+
+.sub-banner ul li a {
+  font-size: 1.2rem;
+  line-height: 0;
+  color: var(--color-gray);
+}
+
+@media screen and (max-width: 1200px) {
+  .sub-banner ul li a {
+    font-size: 1rem;
+  }
+}
+
 .services {
   padding: 8rem 12rem 2rem 12rem;
   position: relative;
