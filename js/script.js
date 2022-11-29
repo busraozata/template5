@@ -21,7 +21,15 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", window.scrollY > 100);
 });
 
-var swiper = new Swiper(".mySwiper", {
+//Preloader
+
+$("#preloader")
+  .delay(1500)
+  .fadeOut("slow", function () {
+    $(this).remove();
+  });
+
+var mySwiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -32,7 +40,7 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-var swiper = new Swiper(".mySwiperDoctor", {
+var mySwiperDoctor = new Swiper(".mySwiperDoctor", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -60,7 +68,7 @@ var swiper = new Swiper(".mySwiperDoctor", {
   },
 });
 
-var swiper = new Swiper(".mySwiperGallery", {
+var mySwiperGallery = new Swiper(".mySwiperGallery", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -84,6 +92,59 @@ var swiper = new Swiper(".mySwiperGallery", {
     1300: {
       slidesPerView: 3,
       spaceBetween: 70,
+    },
+  },
+});
+
+var swiper = new Swiper(".mySwiperLastPosts", {
+  direction: "vertical",
+  autoplay: {
+    delay: 1500,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 45,
+    },
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 15,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 15,
+    },
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+var swiper = new Swiper(".mySwiperLastBlog", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 45,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 25,
+    },
+    1300: {
+      slidesPerView: 3,
+      spaceBetween: 55,
     },
   },
 });
