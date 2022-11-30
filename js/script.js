@@ -112,7 +112,7 @@ var swiper = new Swiper(".mySwiperLastPosts", {
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 15,
+      spaceBetween: 5,
     },
   },
   pagination: {
