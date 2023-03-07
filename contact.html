@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
@@ -16,43 +17,51 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>Dental Care</title>
 </head>
-
-<body class="js">
-    <!-- Preloader -->
-    <div id="preloader"></div>
-    <!-- Preloader -->
-    <header>
-        <div class="container-fluid">
-            <div class="header-inner d-flex align-items-center justify-content-between">
-                <div class="img-wrapper">
-                    <a href="index.html">
-                        <img src="./img/logo.png" class="img-fluid" alt="logo">
-                    </a>
-                </div>
-                <button id="toggle-btn"><i class="fa fa-bars"></i> </button>
-
-                <div class="navigation">
-                    <ul class="menu-area d-flex justify-content-center align-items-center">
-                        <li class="nav-item"><a href="index.html" class="nav-link ">ANA SAYFA</a></li>
-                        <li class="nav-item"><a href="about.html" class="nav-link ">KURUMSAL</a></li>
-                        <li class="nav-item"><a href="doctors.html" class="nav-link">DOKTORLAR</a></li>
-                        <li class="nav-item dropdown">
-                            <a href="services.html" class="nav-link dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">TEDAVİLERİMİZ</a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="service-detail.html">DİŞ BEYAZLATMA</a></li>
-                                <li><a class="dropdown-item" href="service-detail.html">GUMMY SMILE</a></li>
-                                <li><a class="dropdown-item" href="service-detail.html">İMPLANT TEDAVİSİ</a></li>
-                                <li><a class="dropdown-item" href="service-detail.html">LAMİNE KAPLAMA</a></li>
-                                <li><a class="dropdown-item" href="service-detail.html">KANAL TEDAVİSİ</a></li>
-                                <li><a class="dropdown-item" href="service-detail.html">PORSELEN KAPLAMA</a></li>
-                                <li><a class="dropdown-item" href="service-detail.html">DİŞ TAŞI TEMİZLİĞİ</a></li>
-
+<body>
+    <body class="js">
+        <!-- Preloader -->
+        <div id="preloader"></div>
+        <!-- Preloader -->
+        <header>
+            <div class="container-fluid">
+                <div class="header-inner d-flex align-items-center justify-content-between">
+                    <div class="img-wrapper">
+                        <a href="index.html">
+                            <img src="./img/logo.png" class="img-fluid" alt="logo">
+                        </a>
+                    </div>
+                    <button id="toggle-btn"><i class="fa fa-bars"></i> </button>
+    
+                    <div class="navigation">
+                        <ul class="menu-area d-flex justify-content-center align-items-center">
+                            <li class="nav-item"><a href="index.html" class="nav-link ">ANA SAYFA</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link ">KURUMSAL</a></li>
+                            <li class="nav-item"><a href="doctors.html" class="nav-link">DOKTORLAR</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="services.html" class="nav-link dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">TEDAVİLERİMİZ</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="service-detail.html">DİŞ BEYAZLATMA</a></li>
+                                    <li><a class="dropdown-item" href="service-detail.html">GUMMY SMILE</a></li>
+                                    <li><a class="dropdown-item" href="service-detail.html">İMPLANT TEDAVİSİ</a></li>
+                                    <li><a class="dropdown-item" href="service-detail.html">LAMİNE KAPLAMA</a></li>
+                                    <li><a class="dropdown-item" href="service-detail.html">KANAL TEDAVİSİ</a></li>
+                                    <li><a class="dropdown-item" href="service-detail.html">PORSELEN KAPLAMA</a></li>
+                                    <li><a class="dropdown-item" href="service-detail.html">DİŞ TAŞI TEMİZLİĞİ</a></li>
+    
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link active"> İLETİŞİM</a></li>
+                        </ul>
+                        <div class="language d-xl-none d-flex justify-content-center align-items-center">
+                            <img src="./img/world.png" class="img-fluid" alt="world">
+                            <ul class="d-flex align-items-center">
+                                <li class="nav-item active">TR</li>
+                                <li class="nav-item">ENG</li>
                             </ul>
-                        </li>
-                        <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link active"> İLETİŞİM</a></li>
-                    </ul>
-                    <div class="language d-xl-none d-flex justify-content-center align-items-center">
+                        </div>
+                    </div>
+                    <div class="language d-xl-flex d-none justify-content-center align-items-center">
                         <img src="./img/world.png" class="img-fluid" alt="world">
                         <ul class="d-flex align-items-center">
                             <li class="nav-item active">TR</li>
@@ -60,248 +69,241 @@
                         </ul>
                     </div>
                 </div>
-                <div class="language d-xl-flex d-none justify-content-center align-items-center">
-                    <img src="./img/world.png" class="img-fluid" alt="world">
-                    <ul class="d-flex align-items-center">
-                        <li class="nav-item active">TR</li>
-                        <li class="nav-item">ENG</li>
-                    </ul>
+            </div>
+        </header>
+        <section class="sub-banner d-flex justify-content-end align-items-end" style=" background-position: right; background-size: contain;">
+            <div class="container-fluid">
+                <ul class="d-flex align-items-end">
+                    <li><a href="">İletişim</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="map-area">
+            <div class="title">
+                <h3>Adres</h3>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.0864253127293!2d28.870207015661308!3d40.97958832913813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabd671f7391b7%3A0x9f90d1a19c5df6d2!2zV3VjaXplIHwgV2ViIFRhc2FyxLFtICwgw5xyw7xuIEZvdG_En3JhZiDDh2VraW1pLCBUYW7EsXTEsW0gRmlsbWk!5e0!3m2!1str!2str!4v1667916636138!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="contact-page">
+            <div class="container-fluid">
+                <div class="form-area">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label for="">Ad Soyad*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label for="">E-mail Adresiniz*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group">
+                                    <label for="">Telefon Numaranız*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group d-flex flex-column">
+                                    <label for="">Mesajınız*</label>
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="button-area">
+                                    <button class="btn">GÖNDER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+    
+            </div>
+        </section>
+        <section class="lastblogs-area">
+            <div class="container">
+                <h4>Güncel Bloglar</h4>
+                <div class="swiper mySwiperLastBlog">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Genel Diş Tedavileri</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    <a href="#" class="btn">Devam Et</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Genel Diş Tedavileri</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    <a href="#" class="btn">Devam Et</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Genel Diş Tedavileri</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    <a href="#" class="btn">Devam Et</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Genel Diş Tedavileri</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    <a href="#" class="btn ">Devam Et</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <section class="sub-banner d-flex justify-content-end align-items-end" style=" background-position: right; background-size: contain;">
-        <div class="container-fluid">
-            <ul class="d-flex align-items-end">
-                <li><a href="">İletişim</a></li>
-            </ul>
-        </div>
-    </section>
-    <section class="map-area">
-        <div class="title">
-            <h3>Adres</h3>
-        </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.0864253127293!2d28.870207015661308!3d40.97958832913813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabd671f7391b7%3A0x9f90d1a19c5df6d2!2zV3VjaXplIHwgV2ViIFRhc2FyxLFtICwgw5xyw7xuIEZvdG_En3JhZiDDh2VraW1pLCBUYW7EsXTEsW0gRmlsbWk!5e0!3m2!1str!2str!4v1667916636138!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-    <section class="contact-page">
-        <div class="container-fluid">
-            <div class="form-area">
-                <form action="">
+        </section>
+    
+        <footer>
+            <div class="container-fluid">
+                <div class="footer-top">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 mb-3">
-                            <div class="form-group">
-                                <label for="">Ad Soyad*</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 mb-3">
-                            <div class="form-group">
-                                <label for="">E-mail Adresiniz*</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-12 mb-3">
-                            <div class="form-group">
-                                <label for="">Telefon Numaranız*</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-12 mb-3">
-                            <div class="form-group d-flex flex-column">
-                                <label for="">Mesajınız*</label>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="button-area">
-                                <button class="btn">GÖNDER</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-        </div>
-    </section>
-    <section class="lastblogs-area">
-        <div class="container">
-            <h4>Güncel Bloglar</h4>
-            <div class="swiper mySwiperLastBlog">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Genel Diş Tedavileri</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="btn">Devam Et</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Genel Diş Tedavileri</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="btn">Devam Et</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Genel Diş Tedavileri</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="btn">Devam Et</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-img-top" src="./img/professional-dentist-tools-dental-office.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Genel Diş Tedavileri</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="btn ">Devam Et</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container-fluid">
-            <div class="footer-top">
-                <div class="row">
-                    <div class="col-lg-9">
-                        <div class="row align-items-center">
-                            <div class="col-lg-4">
-                                <img src="./img/logo.png" class="img-fluid" alt="logo">
-                            </div>
-                            <div class="col-lg-8 d-flex justify-content-center">
-                                <div class="form-area position-relative">
-                                    <form action="">
-                                        <div class="row ">
-                                            <div class="col-lg-9">
-                                                <div class="form-group">
-                                                    <label for="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan </label>
-                                                    <input type="text" class="form-control">
+                        <div class="col-lg-9">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <img src="./img/logo.png" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="col-lg-8 d-flex justify-content-center">
+                                    <div class="form-area position-relative">
+                                        <form action="">
+                                            <div class="row ">
+                                                <div class="col-lg-9">
+                                                    <div class="form-group">
+                                                        <label for="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan </label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <button class="btn ">GÖNDER</button>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-3">
-                                                <button class="btn ">GÖNDER</button>
-                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <h5>KURUMSAL</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                            <ul>
+                                                <li><a href="">Hakkımızda</a></li>
+                                                <li><a href="">Vizyonumuz</a></li>
+                                                <li><a href="">Misyonumuz</a></li>
+                                            </ul>
                                         </div>
-                                    </form>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <h5>TEDAVİLERİMİZ</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                            <ul>
+                                                <li><a href="">İmplant</a></li>
+                                                <li><a href="">Dijital Gülüş Tasarımı</a></li>
+                                                <li><a href="">Zirkonyum Kaplama</a></li>
+                                                <li><a href="">Lamina Kaplama</a></li>
+                                                <li><a href="">Porselen Kaplama</a></li>
+                                                <li><a href="">Diş Beyazlatma</a></li>
+                                                <li><a href="">Ortodonti</a></li>
+                                                <li><a href="">Diş Eti Tedavisi</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <h5>BLOG</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                            <ul>
+                                                <li><a href="">Güşüş Tasarımı Nedir?</a></li>
+                                                <li><a href="">İmplant Hangi Durumlarda Uygulanır</a></li>
+                                                <li><a href="">Gülüş Tasarımı Nedir?</a></li>
+                                                <li><a href="">İmplant Hangi Durumda Yapılır?</a></li>
+                                                <li><a href="">Gülüş Tasarımı Nedir?</a></li>
+                                                <li><a href="">İmplant Hangi Durumda Yapılır?</a></li>
+                                        </div>
+                                    </div>
+    
                                 </div>
                             </div>
                         </div>
-                        <div class="bottom">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div>
-                                        <h5>KURUMSAL</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <ul>
-                                            <li><a href="">Hakkımızda</a></li>
-                                            <li><a href="">Vizyonumuz</a></li>
-                                            <li><a href="">Misyonumuz</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div>
-                                        <h5>TEDAVİLERİMİZ</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <ul>
-                                            <li><a href="">İmplant</a></li>
-                                            <li><a href="">Dijital Gülüş Tasarımı</a></li>
-                                            <li><a href="">Zirkonyum Kaplama</a></li>
-                                            <li><a href="">Lamina Kaplama</a></li>
-                                            <li><a href="">Porselen Kaplama</a></li>
-                                            <li><a href="">Diş Beyazlatma</a></li>
-                                            <li><a href="">Ortodonti</a></li>
-                                            <li><a href="">Diş Eti Tedavisi</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div>
-                                        <h5>BLOG</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                        <ul>
-                                            <li><a href="">Güşüş Tasarımı Nedir?</a></li>
-                                            <li><a href="">İmplant Hangi Durumlarda Uygulanır</a></li>
-                                            <li><a href="">Gülüş Tasarımı Nedir?</a></li>
-                                            <li><a href="">İmplant Hangi Durumda Yapılır?</a></li>
-                                            <li><a href="">Gülüş Tasarımı Nedir?</a></li>
-                                            <li><a href="">İmplant Hangi Durumda Yapılır?</a></li>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column align-items-start justify-content-start ">
-                        <div class="social-area">
-                            <h5>SOSYAL MEDYA</h5>
-                            <ul class="social-media d-flex">
-                                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-                            </ul>
-                        </div>
-                        <div style="margin-top: 3rem">
-                            <h5 style="margin-bottom: 2rem; display: block;">İLETİŞİM</h5>
-                            <div class="address">
-                                <h6>Adres</h6>
-                                <p>Zeytinlik Mah. Türkçü Sok. Ferah Palas Apartman A Blok No:16 Daire:9 Kat:4
-                                    Bakırköy / İSTANBUL</p>
-                            </div>
-                            <div class="phone-area">
-                                <h6>Telefon</h6>
-                                <ul>
-                                    <li><a href="tel:+90 535 12345 67"> +90 535 12345 67</a></li>
-                                    <li><a href="tel:+90 535 12345 67">+90 535 12345 67</a></li>
+                        <div class="col-lg-3 d-flex flex-column align-items-start justify-content-start ">
+                            <div class="social-area">
+                                <h5>SOSYAL MEDYA</h5>
+                                <ul class="social-media d-flex">
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
                                 </ul>
                             </div>
-                            <div class="email-area">
-                                <h6>E-Posta</h6>
-                                <ul>
-                                    <li><a href="tel:+90 535 12345 67"> bilgi@dentalcare.com</a></li>
-                                    <li><a href="tel:+90 535 12345 67">info@dentalcare.com</a></li>
-                                </ul>
+                            <div style="margin-top: 3rem">
+                                <h5 style="margin-bottom: 2rem; display: block;">İLETİŞİM</h5>
+                                <div class="address">
+                                    <h6>Adres</h6>
+                                    <p>Zeytinlik Mah. Türkçü Sok. Ferah Palas Apartman A Blok No:16 Daire:9 Kat:4
+                                        Bakırköy / İSTANBUL</p>
+                                </div>
+                                <div class="phone-area">
+                                    <h6>Telefon</h6>
+                                    <ul>
+                                        <li><a href="tel:+90 535 12345 67"> +90 535 12345 67</a></li>
+                                        <li><a href="tel:+90 535 12345 67">+90 535 12345 67</a></li>
+                                    </ul>
+                                </div>
+                                <div class="email-area">
+                                    <h6>E-Posta</h6>
+                                    <ul>
+                                        <li><a href="tel:+90 535 12345 67"> bilgi@dentalcare.com</a></li>
+                                        <li><a href="tel:+90 535 12345 67">info@dentalcare.com</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="copyright d-flex justify-content-between align-items-center">
-            <span>Copyright © 2022 Dental Care All Rights Reserved.</span>
-            <a href="">
-                <img src="./img/wucize-footer.png" class="img-fluid" alt="wucize-logo">
-            </a>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js'></script>
-    <script src='https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js'></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-    <script src="./js/script.js"></script>
+            <div class="copyright d-flex justify-content-between align-items-center">
+                <span>Copyright © 2022 Dental Care All Rights Reserved.</span>
+                <a href="">
+                    <img src="./img/wucize-footer.png" class="img-fluid" alt="wucize-logo">
+                </a>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js'></script>
+        <script src='https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js'></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+    
 </body>
-
 </html>
